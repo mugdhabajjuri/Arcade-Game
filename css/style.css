@@ -1,0 +1,228 @@
+body {
+    text-align: center;
+}
+
+/* mystle.css */
+/* My additional css to the page. */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Averia Libre', calibri;
+    text-align: center;
+    background-color: gray;
+}
+
+header {
+    height: 75px;
+    margin: auto;
+    background-color: #204d74;
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    margin: 0;
+    padding-top: 15px;
+    color: white;
+}
+
+button {
+    margin: 0 auto;
+}
+
+a {
+    font-size: 18px;
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+canvas {
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+#modalDiv {
+    position: absolute;
+    background-color: #333;
+    width: 100%;
+    height: 600px;
+    z-index: 1;
+}
+
+.display-none {
+    display: none;
+}
+
+.container-modal {
+    height: 570px;
+    background-color: #fff;
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.left-box {
+    width: 25%;
+    height: 583px;
+    background-color: darkgray;
+    float: left;
+    overflow: hidden;
+}
+
+.center-box {
+    width: 50%;
+    height: 600px;
+    float: left;
+    overflow: hidden;
+    background-color: #bbb;
+}
+
+.heading {
+    padding: 200px 0 0 0;
+}
+
+.new-score {
+    color: #000;
+}
+
+.my-button {
+    text-align: center;
+    font-size: 24px;
+    width: 200px;
+    height: 50px;
+    background-color: #204d74;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #204d74;
+    color: white;
+    cursor: pointer;
+}
+
+.my-button:hover {
+    box-shadow: 5px 5px 5px #204d74;
+    background-color: #ccc;
+    color: #204d74;
+}
+
+.right-box {
+    width: 25%;
+    height: 583px;
+    background-color: darkgray;
+    float: left;
+    overflow: hidden;
+}
+
+.container {
+    background-color: #fff;
+    width: 1200px;
+    margin: auto;
+    max-height: 565px;
+    padding: 20px 0 0 0;
+    align-content: center;
+    background-color: darkgray;
+    overflow: hidden;
+}
+
+.left-div {
+    width: 25%;
+    height: 583px;
+    background-color: darkgray;
+    float: left;
+    overflow: hidden;
+    margin-top: 17px;
+    text-align: left;
+    padding: 0 0 0 20px;
+}
+
+.score, .timer {
+    color: black;
+    margin: auto;
+}
+
+.points-counter {
+    color: #204d74;
+}
+
+.time-counter {
+    color: #204d74;
+}
+
+.instructions {
+    font-size: 15px;
+    margin-left: 2px;
+}
+
+.center-div {
+    width: 50%;
+    height: 600px;
+    float: left;
+    overflow: hidden;
+}
+
+.right-div {
+    width: 22%;
+    height: 583px;
+    background-color: darkgray;
+    float: left;
+    overflow: hidden;
+    margin: 17px 0 0 0;
+    text-align: left;
+}
+
+.button-div {
+    height: 40px;
+}
+
+.space {
+    height: 200px;
+}
+
+.my-name-label {
+    color: #444;
+}
+
+.experience {
+    float: right;
+}
+
+.report {
+    float: left;
+}
+
+.top-div {
+    width: 100%;
+}
+
+.float-left {
+    float: left;
+}
+
+.my-name {
+    color: #333;
+}
+
+.my-name:hover {
+    background-color: blueviolet;
+    border-radius: 2px;
+    color: white;
+    padding: 2px;
+}
+
+.display-block {
+    display: block;
+}
+
+.instructions-line {
+    float: left;
+    margin: 0 0 5px 0;
+    text-align: justify;
+}
